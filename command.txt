@@ -1,0 +1,6 @@
+   cd /tmp && curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-337.0.0-linux-x86_64.tar.gz && \ 
+    tar -xf google-cloud-sdk-337.0.0-linux-x86_64.tar.gz -C /var && \
+    ./google-cloud-sdk/install.sh --quiet && \
+    source /var/google-cloud-sdk/completion.bash.inc && \
+    source /var/google-cloud-sdk/path.bash.inc
+   
